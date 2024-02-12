@@ -1,12 +1,17 @@
 #include <stdio.h>
 
-int main() 
-{
-	int a = 3;
-	float b = 4.5;
-	double c = 5.25;
-	float sum;
-	
-	printf("The sum of a, b, and c is %f.", a);
-	return 0;
+int main() {
+    int num1, num2, suma;
+    
+    printf("Ingrese el primer número: ");
+    scanf("%d", &num1);
+    
+    printf("Ingrese el segundo número: ");
+    scanf("%d", &num2);
+    
+    suma = num1 + num2;
+    
+    printf("La suma es: %d\n", suma);
+    
+    return 0;
 }
